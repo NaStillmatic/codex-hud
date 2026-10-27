@@ -1,0 +1,9 @@
+{
+  "name": "codex-hud",
+  "plugins": [
+    {
+      "name": "codex-hud",
+      "source": "./"
+    }
+  ]
+}

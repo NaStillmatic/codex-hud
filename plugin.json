@@ -1,0 +1,18 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "codex-hud",
+  "version": "0.2.0",
+  "description": "Configure the native Codex status line with model, reasoning, project, Git and usage information.",
+  "extensions": {
+    "com.openai": {
+      "onboardingSkill": "./skills/setup/SKILL.md",
+      "interface": {
+        "displayName": "Codex HUD",
+        "shortDescription": "Model, reasoning, project and Git in your Codex status line",
+        "longDescription": "Set up the native one-line Codex status display without a custom Codex build or separate launcher.",
+        "category": "Developer tools",
+        "defaultPrompt": "Set up Codex HUD with model, reasoning level, project and Git branch."
+      }
+    }
+  }
+}

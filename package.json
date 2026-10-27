@@ -1,0 +1,18 @@
+{
+  "name": "codex-hud",
+  "version": "0.2.0",
+  "private": true,
+  "description": "A Codex plugin for configuring the native model, reasoning, project and Git status line",
+  "type": "module",
+  "bin": { "codex-hud": "bin/codex-hud.mjs" },
+  "scripts": {
+    "start": "node bin/codex-hud.mjs",
+    "test": "node --test",
+    "preview": "node bin/codex-hud.mjs preview",
+    "doctor": "node bin/codex-hud.mjs doctor",
+    "setup": "node scripts/configure.mjs apply",
+    "status": "node scripts/configure.mjs show",
+    "restore": "node scripts/configure.mjs restore"
+  },
+  "engines": { "node": ">=20" }
+}
